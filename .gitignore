@@ -1,0 +1,15 @@
+# Local datasets and downloaded archives
+/data/
+*.zip
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local training/session artifacts
+/memory/
+.streamlit/
+
