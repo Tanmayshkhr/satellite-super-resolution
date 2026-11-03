@@ -77,3 +77,7 @@ the requirements and launch Streamlit from that exact interpreter instead:
 C:\Users\asus\anaconda3\python.exe -m pip install -r requirements.txt
 C:\Users\asus\anaconda3\python.exe -m streamlit run app.py
 ```
+
+The requirements constrain NumPy below version 2 because the scikit-image
+metrics used by the demo require matching compiled NumPy and scikit-image
+versions.
