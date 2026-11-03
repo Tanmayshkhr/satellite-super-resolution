@@ -69,3 +69,11 @@ example:
 ```powershell
 C:\Python314\python.exe -m streamlit run app.py
 ```
+
+If `streamlit run app.py` uses Anaconda or another Python installation, install
+the requirements and launch Streamlit from that exact interpreter instead:
+
+```powershell
+C:\Users\asus\anaconda3\python.exe -m pip install -r requirements.txt
+C:\Users\asus\anaconda3\python.exe -m streamlit run app.py
+```
